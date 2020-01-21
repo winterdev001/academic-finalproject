@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		
+		<div ng-app='index' ng-controller='indexCtrl' class="user-details">
+			<h2 style="text-align: center;">all users</h2>
+			<div >
+			<ul ng-repeat='user in data'>
+				
+			  <li><img class="user-pic" src="addusericon.png"/>
+					<span class="user"><h2>{{user.username}} <span class="status">Status:{{user.availability}}</span></h2></span> {{user.Department}}.<br> {{user.Description}}<br> {{user.Email}}<br> <br><br>
+					
+					<a class="a2" href="#">Hire</a>
+		            <a class="a3" href="#" >View Profile</a>
+		            <a class="a1" href="#">Edit Profile</a>
+				</li>
+				
+
+			</ul>
+			<h2>available users</h2>
+			<ul ng-repeat='user in datas'>
+				<li>{{user.username}} {{user.availability}}</li>
+			</ul>
+		</div></div>
+		<script src="angular.js"></script>
+		<script src="connector.js"></script>
+	</body>
+</html>

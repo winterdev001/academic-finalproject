@@ -1,0 +1,84 @@
+body section{
+    color: black;
+    text-decoration-color: aliceblue;
+}
+.desc{
+    height: 220px;
+    margin-top: -230px;
+    margin-left: 250px;
+    text-align: center;
+    
+}
+
+.butn{
+  
+    margin-top: -80px;
+    /* margin-left: 13rem; */
+    
+}
+.usr-det{
+    border-radius: 6px;
+    background-color:rgb(27, 33, 34);
+    border-bottom: 3px solid rgb(228, 225, 219);
+    color: aliceblue;
+   margin-bottom: 3px;
+}
+.imagy{
+    border-radius: 6px solid grey;
+
+}
+.liked{
+    margin-top:-1400px;
+    margin-left: 1020px;
+    background-color: rgb(211, 233, 253);
+    width: 160px;
+    height: 600px;
+}
+.container1{
+    
+}
+.user-card{
+margin-left: 6px;
+
+}
+.container2{
+    background-color: rgb(234, 242, 248);
+    height: 500px;
+    width: 300px;
+    border-radius: 6px;
+    margin-top: -7px;
+    margin-left: 1023px;
+    border:3px solid rgb(241, 191, 98);
+}
+.most-liked{
+    border-bottom: 1px solid gray;
+}
+.page-header{
+    background-color: rgb(236, 233, 44);
+    margin-left: -6px;
+    
+    width: 1020px;
+    border-radius: 6px;
+    text-align: center;
+    color: black;
+    text-decoration-line: none;
+}
+.page-header2{
+    background-color: rgb(241, 188, 12);
+    margin-left: 1020px;
+    margin-top: -1465px;
+    width: 300px;
+    border-radius: 6px;
+    text-align: center;
+    height: 50px;
+}
+.card{
+    height: 50px;
+    padding-bottom: 20px;
+    width: 1020px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    margin-left: -6px;
+    color: transparent;
+
+}

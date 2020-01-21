@@ -1,0 +1,244 @@
+body{
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: 100% 990px;
+}
+.user-details{
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: rgba(44, 62, 80,0.7);
+  margin-top:30px;
+  margin-left: -69px;
+  font-size: 20px;
+  text-decoration:none;
+  text-align: center;
+  border-radius: 6px;
+  
+ 
+}
+
+
+.a1,.a2,.a3 {
+
+text-decoration: none;
+  border: 0 none;
+  display: inline-block;
+  height: 40px;
+  width: 200px;
+  
+  background: darkgrey;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  font: 12px/54px "raleway-heavy", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin:-10px 10px;
+  
+}
+/*
+ .a2{
+text-decoration: none;
+  border: 0 none;
+  display: inline-block;
+  height: 40px;
+  width: 80px;
+  
+  background: darkgrey;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: grey;
+  text-align: center;
+  border-radius: 3px;
+  font: 12px/54px "raleway-heavy", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin:0 160px;
+  
+}*/
+a:link, a:visited {
+  color: black;
+
+}
+a:hover, a:active{
+  color: grey;
+}
+.user-pic{
+ margin:0 335px;
+}
+.user{
+  text-align: center;
+  font-size: 15px;
+}
+.status{
+text-decoration: none;
+  border: 0 none;
+  display: inline-block;
+  height: 35px;
+  width: 170px;
+  padding-bottom: 12px;
+  background: orange;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: black;
+  text-align: center;
+  border-radius: 20px;
+  font: 12px/54px "raleway-heavy", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin:0 40px;
+
+
+}
+.card{
+  display: inline-block;
+  padding: 0px;
+  weight:100px;
+  padding:0px;
+}
+.main-panel{
+  height: 70px;
+}
+.navu{
+  height:62px;
+  border-bottom: 1px solid white;
+}
+.cont{
+ 
+  border-top: 1px solid white;
+}
+.inf{
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  border-radius: 6px;
+ 
+}
+.bodi{
+  background-color: black;
+  color:black;
+ 
+}
+a {
+  text-decoration-line: none;
+}
+.tbl{
+  border: 2px ;
+ border-radius: 6px;
+ width: 800px;
+}
+.hd{
+  font-size: 30px;
+  color: orange;
+  padding:3px;
+  
+}
+.use-link1{
+  text-align: center;
+  border-right: 2px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.use-link2{
+  text-align: center;
+  border-right: 2px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.use-link4{
+  text-align: center;
+  border-left: 2px solid white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.use-link3{
+  
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.active{
+  background-color: grey;
+  text-decoration: none;
+}
+.dashb{
+  color:whitesmoke;
+  font-size: 20px;
+}
+.nav{
+  margin-top: 10px;
+}
+.links{
+  margin-top: 10px;
+}
+.crd{
+  background-color: rgb(31, 28, 28);
+  border:2px solid orange;
+  
+}
+.confirm{
+  font-size: 10px;
+  width:230px;
+  height: 500px;
+  margin-top: 150px;
+  background-color: rgb(53, 52, 52);
+}
+input{
+ height: 20px;
+ width: 80px;
+ padding: 2px;
+}
+.confirmtable{
+  font-size: 28px;
+  margin-top: -550px;
+  margin-left: 400px;
+}
+input[type="text"]{
+  
+  height: 45px;
+  width: 300px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(61, 58, 33);
+  padding-left: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom:2px solid black;
+  text-decoration-color: black;
+
+}
+.report{
+  margin-left: 200px;
+  width:900px;
+  margin-top: 50px;
+  
+}
+/* .logo{
+ 
+} */
+.footer{
+  text-align: center;
+  margin-left: 500px;
+}
+.cont3{
+  background-color: rgb(20, 24, 22);
+  width: 700px;
+  height: 700px;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: orange;
+  text-align: center;
+  font-size: 80px;
+  border-radius: 6px;
+  
+  /* display: inline-block; */
+}
+ .btn{
+  padding: 15px 25px;
+  border: 1px solid orange;
+  background-color: rgb(202, 173, 9);
+  color:rgb(221, 184, 20);
+  border-radius: 6px;
+  height: 40px;
+}

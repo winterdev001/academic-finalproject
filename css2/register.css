@@ -1,0 +1,139 @@
+body{
+  margin: 0 auto;
+  /* background-image: url("../images/login.jpg"); */
+  background-color: rgb(236, 192, 45);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container{
+  /* width: 500px;
+  height: 580px; */
+  text-align: center;
+  margin: 0 auto;
+  /* background-color: rgba(44, 62, 80,0.7); */
+  /* margin-top: 160px; */
+}
+
+/* .container img{
+  width: 200px;
+  height: 200px;
+  margin-top: -60px;
+} */
+
+input[type="text"],input[type="password"],input[type="email"]{
+  margin-top: 30px;
+  height: 45px;
+  width: 300px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(61, 58, 33);
+  padding-left: 40px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom:2px solid black;
+  text-decoration-color: black;
+
+}
+/*.form-input::before{
+  content: "\f007";
+  font-family: "FontAwesome";
+  padding-left: 07px;
+  padding-top: 40px;
+  position: absolute;
+  font-size: 35px;
+  color: #2980b9; 
+}
+
+.form-input:nth-child(2)::before{
+  content: "\f023";
+}*/
+
+.btn-login, .btn-Register{
+  padding: 15px 25px;
+  border: 1px solid orange;
+  background-color: rgb(8, 8, 7);
+  color:rgb(221, 184, 20);
+  border-radius: 6px;
+}
+
+.a1, .a2{
+  border: 1px solid orange;
+border-left:3px;
+border-right: 3px;
+background-color: rgb(15, 14, 13);
+color:rgb(221, 184, 20);
+height: 20px;
+width: 150px;
+text-align: center;
+
+text-decoration-line: none;
+
+border-radius: 6px;
+padding:15px 25px;
+/* display: inline-block; */
+}
+a{
+ text-decoration-line: none;
+  color:black;
+}
+.title{
+  padding-top: 2px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+
+
+
+
+a:link, a:visited{
+  color: orange;
+
+}
+a:hover, a:active{
+  color: grey;
+}
+.error{
+  color: white;
+ padding-top: -3px;
+ font-size: 13px;
+}
+
+.cont{
+  background-color: rgb(20, 24, 22);
+  width: 800px;
+  height: 590px;
+  margin-top: 20px;
+  margin-left: 15px;
+  color: orange;
+  text-align: center;
+  font-size: 80px;
+  border-radius: 6px;
+  
+  /* display: inline-block; */
+}
+.logo{
+  padding-top: 220px;
+}
+.cont1{
+  background-color: rgb(61, 58, 33);
+  width: 95%;
+  height: 590px;
+  margin: 20px;
+  border-radius: 6px;
+ 
+
+  /* display: inline-block; */
+}
+
+.tbl{
+  width: 90%;
+  margin: 2px 60px;
+  border-radius: 6px;
+}
+.hd{
+  color: black;
+  text-align: center;
+}
